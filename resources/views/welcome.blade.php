@@ -14,11 +14,10 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
-        {{-- <link rel="stylesheet" href="{{ asset('build/assets/app.3a2a293f.css') }}"> --}}
-        @vite(['resources/css/app.css']) 
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="antialiased">
-        <h1 class="text-purple-700 font-bold text-4xl px-4 py-3 rounded-full bg-gray-100 max-w-lg text-center mx-auto mt-4">Hello worldd 24</h1>
+        <h1 class="text-purple-700 font-bold text-4xl px-4 py-3 rounded-full bg-gray-100 max-w-lg text-center mx-auto mt-4">Download my CV </h1>
           
         {{-- <x-torchlight-code language='php'>
             echo "Hello World!";
