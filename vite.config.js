@@ -3,8 +3,7 @@ import laravel from 'laravel-vite-plugin';
 
 export default defineConfig({
     server: { 
-        https: true, 
-        host: 'https://laravel-test-dev-123.herokuapp.com/', 
+        https: true
     }, 
     plugins: [
         laravel([
