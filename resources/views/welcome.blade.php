@@ -8,7 +8,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
+        <script src="https://cdn.tailwindcss.com"></script>
         <style> 
             body {
                 font-family: 'Nunito', sans-serif; 
@@ -17,11 +17,11 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="antialiased">
-        <h1 class="text-purple-700 cursor-pointer font-bold text-4xl px-4 py-3 rounded-full bg-gray-100 max-w-lg text-center mx-auto mt-4">Download my CV Test </h1>
+        <h1 class="text-purple-700 cursor-pointer font-bold text-4xl px-4 py-3 rounded-full bg-gray-100 max-w-lg text-center mx-auto mt-4 hover:bg-purple-700 hover:text-white transition-all">Download my CV  </h1>
           
-        {{-- <x-torchlight-code language='php'>
-            echo "Hello World!";
-        </x-torchlight-code> --}}
+            {{-- <x-torchlight-code language='php'>
+                echo "Hello World!";
+            </x-torchlight-code> --}}
         
     </body>
 </html>
