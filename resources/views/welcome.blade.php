@@ -17,11 +17,9 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="antialiased">
-        <a href="{{ route('download') }}" class="text-purple-700 block cursor-pointer font-bold text-4xl px-4 py-3 rounded-full bg-gray-100 max-w-lg text-center mx-auto mt-4 hover:bg-purple-700 hover:text-white transition-all">Download my CV  </a>
+        <a href="/CV-francklin-tiomela.pdf" class="text-purple-700 block cursor-pointer font-bold text-4xl px-4 py-3 rounded-full bg-gray-100 max-w-lg text-center mx-auto mt-4 hover:bg-purple-700 hover:text-white transition-all">Download my CV  </a>
             {{-- <x-torchlight-code language='php'>
                 echo "Hello World!";
             </x-torchlight-code> --}}
-        
-
     </body>
 </html>
